@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #080f1f 0%, #101b32 50%, #063b4a 100%);
+}
+/* .app {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #080f1f 0%, #101b32 50%, #063b4a 100%);
+} */

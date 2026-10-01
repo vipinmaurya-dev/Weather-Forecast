@@ -1,0 +1,49 @@
+.sidebar {
+  width: 250px;
+  min-height: calc(100vh - 70px);
+  box-sizing: border-box;
+
+  background: linear-gradient(180deg, #0b162b, #0d2038);
+  padding: 20px;
+
+  display: flex;
+  flex-direction: column;
+
+  border-right: 1px solid #1d3555;
+  flex-shrink: 0;
+}
+
+.nav-item {
+  padding: 12px 15px;
+  margin: 8px 0;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #a9bad0;
+}
+.nav-item.active {
+  background: #164b78;
+  color: #38cfff;
+}
+.nav-item:hover {
+  background: #122a45;
+  color: #ffffff;
+}
+.bottom-card {
+  margin-top: auto;
+  padding: 15px;
+  background: #122a45;
+  border-radius: 10px;
+}
+.bottom-card h3 {
+  margin: 0 0 10px;
+  color: #ffffff;
+}
+.bottom-card p {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 600;
+  color: #a9a9a9;
+}
