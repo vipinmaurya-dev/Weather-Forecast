@@ -1,35 +1,44 @@
 import { CloudSun, Moon, Search, Sun } from "lucide-react";
-import "../styles/Header.css";
 import { useState } from "react";
+import "../styles/Header.css";
 
 function Header() {
   const [darkMode, setDarkMode] = useState(true);
+
   return (
     <header className="header">
       <div className="header-logo">
         <span>
           <CloudSun size={30} />
         </span>
+
         <h2>
           Weather <span>Forecast</span>
         </h2>
       </div>
 
-      <div className="search-box">
-        <input type="text" name="" id="" placeholder="Search city..." />
+      <form className="search-box" onSubmit={(e) => e.preventDefault()}>
+        <input
+          type="text"
+          name="city"
+          id="city-search"
+          placeholder="Search city..."
+          aria-label="Search city"
+        />
 
-        <button type="button">
-          <Search />
+        <button type="submit" aria-label="Search">
+          <Search size={20} />
         </button>
-      </div>
+      </form>
 
       <div className="header-actions">
         <button
           type="button"
           className="theme-btn"
+          aria-label="Toggle theme"
           onClick={() => setDarkMode(!darkMode)}
         >
-          {darkMode ? <Sun size={30} /> : <Moon size={30} />}
+          {darkMode ? <Sun size={24} /> : <Moon size={24} />}
         </button>
       </div>
     </header>

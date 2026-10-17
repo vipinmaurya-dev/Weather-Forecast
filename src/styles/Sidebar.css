@@ -11,6 +11,7 @@
 
   border-right: 1px solid #1d3555;
   flex-shrink: 0;
+  display: none;
 }
 
 .nav-item {

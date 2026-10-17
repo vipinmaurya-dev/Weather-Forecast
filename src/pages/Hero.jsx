@@ -10,12 +10,6 @@ function Hero() {
               <p>Prayagraj</p>
               <h1>28°C</h1>
               <span>Partly Cloudy</span>
-
-              <div className="weather-details">
-                <span>💧 Humidity 65%</span>
-                <span>💨 Wind 12 km/h</span>
-                <span>🌡️ Feels like 30°C</span>
-              </div>
             </div>
 
             <div className="weather-icon">☁️</div>
@@ -59,9 +53,9 @@ function Hero() {
             </div>
           </div>
 
-          <hr/>
+          <hr />
 
-           <div className="temp">
+          <div className="temp">
             <div className="icon">
               <span>🌡️</span>
               <small>Min Temperature</small>
@@ -71,8 +65,8 @@ function Hero() {
               <h3>30 </h3>
             </div>
           </div>
-          
-          <hr/>
+
+          <hr />
         </div>
       </div>
 

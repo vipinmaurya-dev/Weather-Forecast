@@ -8,7 +8,7 @@ function App() {
     <>
       <Header />
       <div className="main-layout">
-        <Sidebar />
+        {/* <Sidebar /> */}
 
         <main className="content">
           <Hero />
