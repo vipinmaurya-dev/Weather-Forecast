@@ -1,16 +1,48 @@
-# React + Vite
+# Weather Forecast 🌦️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive weather dashboard built with React, CSS, and Weather API integration to display real-time weather information and forecasts.
 
-Currently, two official plugins are available:
+## Features
+- Search weather by city name
+- Display current weather conditions
+- Show temperature, humidity, and wind speed
+- Responsive design for desktop and mobile devices
+- Clean and user-friendly interface
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tech Stack
+- React.js
+- CSS3
+- Weather API
+- JavaScript
 
-## React Compiler
+## Getting Started
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/vipinmaurya-dev/Weather-Forecast.git
+   ```
 
-## Expanding the ESLint configuration
+2. Open the project folder:
+   ```bash
+   cd Weather-Forecast
+   ```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+## Future Improvements
+- Add a multi-day weather forecast
+- Improve loading and error handling
+- Add dark and light theme support
+
+## Author
+**Vipin Kumar Maurya**
+
+GitHub: https://github.com/vipinmaurya-dev
