@@ -14,26 +14,23 @@ function Hero({ city }) {
     )
       .then((res) => res.json())
       .then((data) => {
-        console.log(data);
         setWeatherData(data);
       })
       .catch((error) => console.log(error));
   }, [city]);
 
   useEffect(() => {
-    const city_name = "kanpur";
+    const city_name = city;
 
     fetch(
       `https://api.openweathermap.org/data/2.5/forecast?q=${city_name}&appid=${API_KEY}&units=metric`,
     )
       .then((res) => res.json())
       .then((data) => {
-        console.log(data);
         setForcastData(data.list || []);
       })
       .catch((error) => console.log(error));
   }, [city]);
-  console.log(weatherData?.name);
 
   const dailyForecast = forecastData
     .filter((item) => item.dt_txt.includes("12:00:00"))
@@ -205,9 +202,6 @@ function Hero({ city }) {
       <section className="forecast-section">
         <div className="forecast-cards">
           {dailyForecast.map((item) => {
-            console.log("Weather icon:", item.weather?.[0]?.icon);
-            console.log("Weather description:", item.weather?.[0]?.description);
-
             return (
               <div className="forecast-card" key={item.dt}>
                 <p>
