@@ -2,8 +2,9 @@ import { CloudSun, Moon, Search, Sun } from "lucide-react";
 import { useState } from "react";
 import "../styles/Header.css";
 
-function Header() {
+function Header({ city, setCity }) {
   const [darkMode, setDarkMode] = useState(true);
+  const [searchCity, setSearchCity] = useState("");
 
   return (
     <header className="header">
@@ -17,13 +18,26 @@ function Header() {
         </h2>
       </div>
 
-      <form className="search-box" onSubmit={(e) => e.preventDefault()}>
+      <form
+        className="search-box"
+        onSubmit={(e) => {
+          e.preventDefault();
+          const trimmedCity = searchCity.trim();
+
+          if (trimmedCity) {
+            setCity(trimmedCity);
+            setSearchCity("");
+          }
+        }}
+      >
         <input
           type="text"
           name="city"
           id="city-search"
           placeholder="Search city..."
           aria-label="Search city"
+          value={searchCity}
+          onChange={(e) => setSearchCity(e.target.value)}
         />
 
         <button type="submit" aria-label="Search">
