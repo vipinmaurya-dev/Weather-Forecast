@@ -5,7 +5,7 @@ import Sidebar from "./components/Sidebar";
 import Hero from "./pages/Hero";
 
 function App() {
-  const [city, setCity] = useState("Prayagraj");
+  const [city, setCity] = useState("Fatehpur");
   return (
     <>
       <Header city={city} setCity={setCity} />
@@ -13,7 +13,7 @@ function App() {
         {/* <Sidebar /> */}
 
         <main className="content">
-          <Hero city={city}/>
+          <Hero city={city} />
         </main>
       </div>
     </>
