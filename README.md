@@ -15,6 +15,9 @@ A responsive weather dashboard built with React, CSS, and Weather API integratio
 - Weather API
 - JavaScript
 
+## Live Website
+Link: https://weather-forecast-alpha-seven.vercel.app/
+
 ## Getting Started
 
 1. Clone the repository:
@@ -46,3 +49,4 @@ A responsive weather dashboard built with React, CSS, and Weather API integratio
 **Vipin Kumar Maurya**
 
 GitHub: https://github.com/vipinmaurya-dev
+Linkedin: https://www.linkedin.com/in/vipinmaurya-dev/
