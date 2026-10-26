@@ -48,5 +48,5 @@ Link: https://weather-forecast-alpha-seven.vercel.app/
 ## Author
 **Vipin Kumar Maurya**
 
-GitHub: https://github.com/vipinmaurya-dev
-Linkedin: https://www.linkedin.com/in/vipinmaurya-dev/
+- GitHub: https://github.com/vipinmaurya-dev
+- Linkedin: https://www.linkedin.com/in/vipinmaurya-dev/
