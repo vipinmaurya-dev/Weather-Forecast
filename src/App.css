@@ -28,3 +28,8 @@ body {
   min-width: 0;
   max-width: 100%;
 }
+.light-mode {
+  background-color: #f1f5f9;
+  color: #1e293b;
+  min-height: 100vh;
+}

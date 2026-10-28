@@ -1,3 +1,32 @@
+/* Light Mode - Header */
+.light-mode .header {
+  background: #ffffff;
+  color: #1e293b;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.light-mode .header-logo h2 {
+  color: #1e293b;
+}
+
+.light-mode .search-box {
+  background: #f1f5f9;
+  border-color: #cbd5e1;
+}
+
+.light-mode .search-box input {
+  color: #1e293b;
+}
+
+.light-mode .search-box input::placeholder {
+  color: #64748b;
+}
+
+.light-mode .theme-btn {
+  background: #e2e8f0;
+  color: #334155;
+}
+
 .header {
   min-height: 70px;
   display: flex;

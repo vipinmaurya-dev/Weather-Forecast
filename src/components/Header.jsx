@@ -2,8 +2,7 @@ import { CloudSun, Moon, Search, Sun } from "lucide-react";
 import { useState } from "react";
 import "../styles/Header.css";
 
-function Header({ city, setCity }) {
-  const [darkMode, setDarkMode] = useState(true);
+function Header({ city, setCity, darkMode, setDarkMode }) {
   const [searchCity, setSearchCity] = useState("");
 
   return (

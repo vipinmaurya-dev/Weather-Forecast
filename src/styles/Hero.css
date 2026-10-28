@@ -1,3 +1,43 @@
+/* Light Mode - Weather Dashboard */
+
+.light-mode .weather-hero,
+.light-mode .detail-card,
+.light-mode .right-content,
+.light-mode .forecast-card {
+  background: #ffffff;
+  color: #1e293b;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+/* Main Weather Card */
+
+.light-mode .weather-hero p,
+.light-mode .forecast-card p {
+  color: #334155;
+}
+
+.light-mode .weather-hero span,
+.light-mode .temp .icon small,
+.light-mode .detail-card p {
+  color: #64748b;
+}
+
+/* Today's Details */
+
+.light-mode .right-content hr {
+  border-bottom-color: #e2e8f0;
+}
+
+/* Temperature and Highlight Colors */
+
+.light-mode .weather-hero h1,
+.light-mode .detail-card h3,
+.light-mode .temp .value h3,
+.light-mode .forecast-card h3 {
+  color: #0284c7;
+}
+
 /* Main Layout */
 .hero-main {
   display: grid;
